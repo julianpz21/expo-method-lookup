@@ -1,0 +1,17 @@
+exposición Ruby Method Lookup
+
+
+
+
+Que pasa cuando nosotros llamamos un método? Cómo hace Ruby para decidir que metodo llamar
+cuando hay otro metodo con el mismo nombre?
+
+Ruby define una "manera" o un "patron" para determinar el método correcto en una llamada.
+Esto se llamada Ruby Method Lookup Path
+
+introducción
+
+Los métodos singleton de Ruby son los métodos que se pueden
+definir solo para un objeto específico, es decir, funcionan para un solo objeto.
+Este tipo de métodos están disponibles exclusivamente para un solo objeto, a diferencia de
+los otros métodos que están disponibles para todas las instancias de la clase.
