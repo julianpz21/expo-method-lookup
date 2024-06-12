@@ -11,13 +11,13 @@ end
 julian = MyClass.new('Julian')
 julian.say_hello
 
-# puts 'add a singleton method:'
+puts 'add a singleton method:'
 
-# def julian.say_hello
-#   puts "Hello! #{@name} from singleton method 'hello'"
-# end
+def julian.say_hello
+  puts "Hello! #{@name} from singleton method 'hello'"
+end
 
-# julian.say_hello
+julian.say_hello
 
-# puts 'ancestors:'
-# print julian.class.ancestors
+puts 'ancestors:'
+print julian.class.ancestors

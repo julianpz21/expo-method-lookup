@@ -13,10 +13,10 @@ class MyClass < MySuperClass
     @name = name
   end
 
-  # def say_hello
-  #   # super
-  #   puts "Hello! #{@name} from MyClass"
-  # end
+  def say_hello
+    super
+    # puts "Hello! #{@name} from MyClass"
+  end
 end
 
 julian = MyClass.new('Julian')

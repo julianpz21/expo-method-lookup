@@ -9,16 +9,16 @@ class MyClass < MySuperClass
     @name = name
   end
 
-  def say_hello
-    puts "Hello! #{@name} from MyClass"
-  end
+  # def say_hello
+  #   puts "Hello! #{@name} from MyClass"
+  # end
 end
 
 julian = MyClass.new('Julian')
 
-def julian.say_hello
-  puts "Hello! #{@name} from singleton method 'hello'"
-end
+# def julian.say_hello
+#   puts "Hello! #{@name} from singleton method 'hello'"
+# end
 
 julian.say_hello
 puts 'ancestors:'

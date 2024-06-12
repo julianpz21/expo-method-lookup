@@ -18,8 +18,8 @@ class MySuperClass
 end
 
 class MyClass < MySuperClass
-  include MyModule1
   include MyModule2
+  include MyModule1
 
   def initialize(name)
     @name = name
